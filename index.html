@@ -10,7 +10,7 @@
     </body>
     <script async src="https://cloud.51degrees.com/api/v4/AQS2AzU4Hto4VSVU3Ug.js"></script>
     <script type="text/javascript">
-        window.onload = function() {
+      const detectNow = () => {
             fod.complete(function (data) {
                 console.log(data);
                 
@@ -58,6 +58,7 @@
         }
 
         function buttonClicked() {
+            detectNow()
             alert("Button clicked! Location functionality to be implemented.");
         }
     </script>
